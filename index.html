@@ -60,4 +60,63 @@
       line-height: 1.1;
     }
 
-    p
+    p {
+      margin: 0 auto 16px;
+      max-width: 620px;
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+
+    .divider {
+      width: 80px;
+      height: 3px;
+      background: var(--accent);
+      margin: 24px auto;
+      border-radius: 999px;
+      opacity: 0.75;
+    }
+
+    .note {
+      margin-top: 28px;
+      font-size: 0.98rem;
+      color: var(--muted);
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 0.9rem;
+      color: #8a8177;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 36px 22px;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="eyebrow">Awordfortoday.org</div>
+    <h1>The previous website is no longer available</h1>
+    <div class="divider"></div>
+    <p>
+      Welcome to <strong>A Word for Today</strong>. The old version of this website has been removed.
+    </p>
+    <p>
+      This page is here to let visitors know that the former site is gone and that future updates or content may appear here at a later time.
+    </p>
+    <p class="note">
+      Thank you for visiting and for your patience.
+    </p>
+    <footer>
+      &copy; 2026 A Word for Today
+    </footer>
+  </main>
+</body>
+</html>
